@@ -3,7 +3,7 @@ import {assets} from '../assets/assets'
 import { useNavigate } from 'react-router-dom'
 import { ArrowBigRight } from 'lucide-react'
 import { useClerk, UserButton, useUser } from '@clerk/clerk-react'
-
+import { SignIn } from '@clerk/clerk-react'
 const Navbar = () => {
     const navigate = useNavigate()
     const {user} = useUser()

@@ -5,6 +5,7 @@ import Layout from './pages/Layout'
 import Dashboard from './pages/Dashboard'
 import WriteArticle from './pages/WriteArticle'
 import BlogTitles from './pages/BlogTitles'
+import GenerateImages from './pages/GenerateImages'
 const App = () => {
   return (
     <div>
@@ -14,6 +15,7 @@ const App = () => {
          <Route index element={<Dashboard />} />
          <Route path='write-article' element={<WriteArticle />} />
          <Route path='blog-titles' element={<BlogTitles />} />
+         <Route path='generate-images' element={<GenerateImages />}></Route>
         </Route>
       </Routes>
     </div>
